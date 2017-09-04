@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<servlet>
+	   <servlet-name>Producten</servlet-name>
+	   <servlet-class>com.servlet.Producten</servlet-class>
+	</servlet>
+	<servlet-mapping>
+	   <servlet-name>Producten</servlet-name>
+	   <url-pattern>/Producten</url-pattern>
+	</servlet-mapping>

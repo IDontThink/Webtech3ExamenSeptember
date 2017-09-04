@@ -1,3 +1,4 @@
+package com.servlet;
 
 
 import java.io.IOException;
@@ -10,14 +11,14 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Servlet implementation class Servlet
  */
-@WebServlet("/Servlet")
-public class Servlet extends HttpServlet {
+@WebServlet("/Producten")
+public class Producten extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Servlet() {
+    public Producten() {
         super();
         // TODO Auto-generated constructor stub
     }
